@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+frontend-portal/node_modules/
+/.pnp
+.pnp.*
+
+# Next.js & build outputs
+.next/
+frontend-portal/.next/
+/out/
+/build/
+/dist/
+/coverage/
+
+# Environment and secrets
+.env*
+!.env.example
+frontend-portal/.env*
+!frontend-portal/.env.example
+*.pem
+*.key
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Misc & OS
+.DS_Store
+Thumbs.db
+.vercel/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
