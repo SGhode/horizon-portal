@@ -15,6 +15,7 @@ import {
   Building2,
   ChevronRight,
   LogOut,
+  CalendarCheck2,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
@@ -44,6 +45,11 @@ const mainNavItems: NavItem[] = [
     title: "Payslips & Tax",
     href: "/payslips",
     icon: Receipt,
+  },
+  {
+    title: "Leave & Attendance",
+    href: "/employee/leave-attendance",
+    icon: CalendarCheck2,
   },
   {
     title: "Workforce Directory",
