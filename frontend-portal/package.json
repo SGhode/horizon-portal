@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "node .next/standalone/server.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test": "jiti ./test/leave-service.test.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
